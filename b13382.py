@@ -1,7 +1,9 @@
-A, B, C = map(int, input().split())
+A, B, C = input().split()
 
-A = 2
-B = 3
-C = 4
+A = int(A)
+B = int(B)
+C = int(C)
 
-print(f'{A}+{B}+{C}')
+print(A+B+C)
+
+# 3개의 문자열을 정수화 시킨후 계산
